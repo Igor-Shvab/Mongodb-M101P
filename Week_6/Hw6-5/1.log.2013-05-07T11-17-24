@@ -1,0 +1,21 @@
+Tue May  7 13:16:24.569 [initandlisten] MongoDB starting : pid=12671 port=27017 dbpath=/data/rs1 32-bit host=HP
+Tue May  7 13:16:24.569 [initandlisten] 
+Tue May  7 13:16:24.569 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Tue May  7 13:16:24.569 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Tue May  7 13:16:24.569 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Tue May  7 13:16:24.569 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Tue May  7 13:16:24.570 [initandlisten] 
+Tue May  7 13:16:24.570 [initandlisten] db version v2.4.3
+Tue May  7 13:16:24.570 [initandlisten] git version: fe1743177a5ea03e91e0052fb5e2cb2945f6d95f
+Tue May  7 13:16:24.570 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Tue May  7 13:16:24.570 [initandlisten] allocator: system
+Tue May  7 13:16:24.570 [initandlisten] options: { dbpath: "/data/rs1", fork: true, logpath: "1.log", port: 27017, replSet: "m101", smallfiles: true }
+Tue May  7 13:16:24.570 [initandlisten] exception in initAndListen: 10310 Unable to lock file: /data/rs1/mongod.lock. Is a mongod instance already running?, terminating
+Tue May  7 13:16:24.570 dbexit: 
+Tue May  7 13:16:24.570 [initandlisten] shutdown: going to close listening sockets...
+Tue May  7 13:16:24.570 [initandlisten] shutdown: going to flush diaglog...
+Tue May  7 13:16:24.570 [initandlisten] shutdown: going to close sockets...
+Tue May  7 13:16:24.570 [initandlisten] shutdown: waiting for fs preallocator...
+Tue May  7 13:16:24.570 [initandlisten] shutdown: closing all files...
+Tue May  7 13:16:24.570 [initandlisten] closeAllFiles() finished
+Tue May  7 13:16:24.570 dbexit: really exiting now
